@@ -13,17 +13,38 @@ display: flex;
     justify-content: center;
     align-items: center;
 
-font-family: 'Muli';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 33px;
+border-radius: 50%;
+background-color: #5B9BF3;
+text-align: center;
+    }
+    .logo2{
+        /* T */
+
+width: 41px;
+height: 41px;
+
+
+display: flex;
+    justify-content: center;
+    align-items: center;
+
 border-radius: 50%;
 background-color: white;
-mix-blend-mode: normal;
 text-align: center;
     }
     .T{
+        width: 17px;
+height: 32px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 26px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    .T2{
         width: 17px;
 height: 32px;
 color: #5B9BF3;
@@ -35,5 +56,14 @@ letter-spacing: 0em;
 text-align: left;
 
     }
-    
+    .bar{
+        border: 1.6px solid #21243D;
+
+position: absolute;
+width: 30px;
+height: 0px;
+    }
+    @media (max-width: 767px) {
+        
+    }
 }
