@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/bf0f47b06f.js" crossorigin="anonymous"></script>
 </head>
-<body class="w-screen lg:h-[5147px] sm:h-[7727px] max-[639px]:h-[8000px] bg-white flex justify-center md:h-[6252px]">
-    <header class="w-screen h-[719px] ">
+<body class="overflow-x-hidden w-full lg:h-[5147px] sm:h-[7727px] max-[639px]:h-[8000px] bg-white flex justify-center md:h-[6252px]">
+    <header class="w-screen h-[719px] " id="Home">
         <div class="absolute left-[12%] top-14 flex flex-row md:justify-around lg:justify-around items-center w-40 h-10 justify-start">
             <div class="logo">
             <div class="T">T</div>    
@@ -23,14 +23,14 @@
         </div>
         <div class="nav w-[45%] h-6 absolute top-[70px] left-[54%] hidden lg:block md:block">
             <ul class="list-none flex flex-row justify-between">
-                <li class="text-[#1F1534] font-sans font-bold text-lg text-center">Home</li>
-                <li class="text-[#1F1534] text-center">Find a doctor</li>
-                <li class="text-[#1F1534] text-center">Apps</li>
-                <li class="text-[#1F1534] text-center">Testimanials</li>
-                <li class="text-[#1F1534] text-center">About us</li>
+                <li class="text-[#1F1534] font-sans font-bold text-lg text-center"><a href="#Home">Home</a></li>
+                <li class="text-[#1F1534] text-center"><a href="#Find-a-doctor">Find a doctor</a></li>
+                <li class="text-[#1F1534] text-center"><a href="#services">Apps</a></li>
+                <li class="text-[#1F1534] text-center"><a href="#Testimanials">Testimanials</a></li>
+                <li class="text-[#1F1534] text-center"><a href="#About-us">About us</a></li>
             </ul>
         </div>
-        <div class="header-text relative lg:w-[31%] lg:h-[338px] lg:left-[12%] lg:top-[283px] flex flex-col items-center justify-between h-[903px] top-[180px]">
+        <div class="header-text relative lg:w-[31%] lg:h-[338px] lg:left-[12%] lg:top-[283px] flex flex-col items-center justify-between h-[903px] top-[180px]" id="Find-a-doctor">
             <img src="./assets/trafalgar-header illustration 1.png" alt="" class="lg:w-full lg:absolute lg:left-[507px] md:top-0 md:static">
 
             <div class="Text lg:w-full lg:h-28 font-sans font-bold text-5xl text-black w-full flex justify-center max-[767px]:text-center">Virtual healthcare 
@@ -47,7 +47,7 @@
                     </button>
         </div>
     </header>
-    <div class="our-services w-screen h-[1133px] absolute top-[1100px] flex flex-col items-center lg:top-[845px]">
+    <div class="our-services w-screen h-[1133px] absolute top-[1100px] flex flex-col items-center lg:top-[845px]" id="services">
         <header class="w-[65%] h-[177px] relative flex justify-center items-center flex-col ">
             <div class="title w-[212px] h-14 font-sans text-4xl font-bold ">Our services</div>
             <div class="dash w-14 h-[2px] bg-black top-[140px] absolute"></div>
@@ -129,7 +129,7 @@
         
 
     </section>
-   <div class=" testimonials h-[713px] w-screen lg:h-[502px] absolute lg:top-[3300px] bg-white flex justify-evenly items-center flex-col md:top-[4325px] sm:top-[4325px] max-[639px]:top-[5156px]">
+   <div class=" testimonials h-[713px] w-screen lg:h-[502px] absolute lg:top-[3300px] bg-white flex justify-evenly items-center flex-col md:top-[4325px] sm:top-[4325px] max-[639px]:top-[5156px]" id="Testimanials">
     <div class="rectangle static lg:absolute top-4 w-[80%] lg:h-[425px] h-[635px] bg-gradient-to-l from-[#67C3F3] to-[#5A98F2] rounded-3xl flex justify-evenly items-center flex-col">
         <div class="Text lg:absolute top-[64px] font-sans font-bold text-4xl text-white text-center w-full">What our customer are saying</div>
         <div class="dash w-14 h-[2px] bg-white top-[120px] lg:absolute"></div>
@@ -143,14 +143,14 @@
         
     </div>
     <div class="arrow-nav lg:absolute static w-[291px] h-5 top-[450px] flex justify-between flex-row items-center">
-        <i class="fa-solid fa-arrow-left opacity-40" style="color: #458ff6;"></i>
+<button><i class="fa-solid fa-arrow-left opacity-40" style="color: #458ff6;"></i></button>
         <div class="w-[78px] h-[10px] flex justify-between flex-row">
-            <div class="w-[10px] h-[10px] rounded-[50%] bg-[#458ff6]"></div>
-            <div class="w-[10px] h-[10px] rounded-[50%] bg-[#458ff6] opacity-40"></div>
-            <div class="w-[10px] h-[10px] rounded-[50%] bg-[#458ff6] opacity-40"></div>
-            <div class="w-[10px] h-[10px] rounded-[50%] bg-[#458ff6] opacity-40"></div>
+            <button><div class="w-[10px] h-[10px] rounded-[50%] bg-[#458ff6]"></div></button>
+            <button><div class="w-[10px] h-[10px] rounded-[50%] bg-[#458ff6] opacity-40"></div></button>
+            <button><div class="w-[10px] h-[10px] rounded-[50%] bg-[#458ff6] opacity-40"></div></button>
+            <button><div class="w-[10px] h-[10px] rounded-[50%] bg-[#458ff6] opacity-40"></div></button>
         </div>
-        <i class="fa-solid fa-arrow-right" style="color: #458ff6;"></i>
+        <button><i class="fa-solid fa-arrow-right" style="color: #458ff6;"></i></button>
     </div>
    </div>
     <section class="w-[76%] lg:h-[740px] md:h-[740px] h-[2300px] absolute lg:top-[3900px] bg-transparent flex justify-center items-center flex-col md:top-[5055px] sm:top-[4965px] max-[639px]:top-[5856px]">
@@ -209,7 +209,7 @@
             </div>
         </button>
     </section>
-    <footer class="w-full h-[432px] absolute lg:top-[4715px] md:top-[5820px] bg-gradient-to-b from-[#67C3F3] to-[#5A98F2] sm:top-[7295px] max-[639px]:top-[8156px] flex flex-col items-center justify-between max-[639px]:h-[855px]">
+    <footer class="w-full h-[432px] absolute lg:top-[4715px] md:top-[5820px] bg-gradient-to-b from-[#67C3F3] to-[#5A98F2] sm:top-[7295px] max-[639px]:top-[8156px] flex flex-col items-center justify-between max-[639px]:h-[855px]" id="About-us">
         <div class="w-[24%] max-[639px]:w-full absolute top-[118px] left-[11.6%] h-[50%] max-[639px]:static max-[639px]:flex max-[639px]:flex-col max-[639px]:justify-evenly">
             <div class=" flex flex-row items-center justify-center">
                 <div class="logo2">
@@ -226,24 +226,24 @@
 
         <div class="absolute top-[118px] left-[44.3%] max-[639px]:static">
             <div class="font-sans font-bold text-2xl text-white">Company</div>
-            <div class="font-sans font-light text-lg text-white leading-9 top-[58px] absolute max-[639px]:static">About <br>
-                Testimonials <br>
-                Find a doctor <br>
-                Apps</div>
+            <div class="font-sans font-light text-lg text-white leading-9 top-[58px] absolute max-[639px]:static"><button>About</button>
+                <button>Testimonials</button>
+                <button>Find a doctor</button>
+                <button>Apps</button></div>
         </div>
         <div class="absolute top-[118px] left-[65.8%] max-[639px]:static">
             <div class="font-sans font-bold text-2xl text-white">Region</div>
-            <div class="font-sans font-light text-lg text-white leading-9 top-[58px] absolute max-[639px]:static">Indonesia<br>
-                Singapore<br>
-                Hongkong<br>
-                Canada</div>
+            <div class="font-sans font-light text-lg text-white leading-9 top-[58px] absolute max-[639px]:static"><button>Indonesia</button>
+                <button>Singapore</button>
+                <button>Hongkong</button>
+                <button>Canada</button></div>
         </div>
         <div class="absolute top-[118px] left-[80%] w-28 max-[639px]:static">
             <div class="font-sans font-bold text-2xl text-white">Help</div>
-            <div class="font-sans font-light text-lg text-white leading-9 top-[58px] absolute max-[639px]:static">Help center
-                Contact support
-                Instructions
-                How it works</div>
+            <div class="font-sans font-light text-lg text-white leading-9 top-[58px] absolute max-[639px]:static"><button>Help center</button>
+                <button>Contact support</button>
+                <button>Instructions</button>
+                <button>How it works</button></div>
         </div>
     </footer>
 </body>

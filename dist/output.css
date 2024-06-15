@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -620,6 +620,10 @@ video {
   left: 12%;
 }
 
+.left-\[17px\] {
+  left: 17px;
+}
+
 .left-\[275px\] {
   left: 275px;
 }
@@ -815,6 +819,10 @@ video {
 
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.box-border {
+  box-sizing: border-box;
 }
 
 .flex {
@@ -1037,6 +1045,14 @@ video {
   width: 100vw;
 }
 
+.w-\[98\%\] {
+  width: 98%;
+}
+
+.w-\[98vw\] {
+  width: 98vw;
+}
+
 .max-w-\[350px\] {
   max-width: 350px;
 }
@@ -1097,8 +1113,16 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .text-ellipsis {
   text-overflow: ellipsis;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-3xl {
